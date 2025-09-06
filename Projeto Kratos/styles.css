@@ -1,0 +1,51 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+    background-color: #121215;
+    color: #EAEAEa;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    padding: 6.4rem;
+}
+.memory {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+
+    text-decoration: none;
+    margin-bottom: 6.4rem;
+}
+
+.memory small {
+    color: #bebebf;
+    font-size: 1.2rem;
+}
+
+.memory h1 {
+    font-size: 3.2rem;
+    color: #EAEAEa;
+}
+
+.memory img {
+    width: 100%;
+    height: 28rem;
+    object-fit: cover;
+    border-radius: .8rem;
+}
+
+.memory p {
+    font-size: 1.8rem;
+    color: #bebebf;
+    line-height: 2.8rem;
+}
